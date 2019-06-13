@@ -1,0 +1,163 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.upper img{
+	width: 100%;
+	display: block;
+}
+
+.nav ul{
+	width: 100%;
+	background-color: rgb(216,94,139);
+	overflow: hidden;
+	margin-top: -1px;
+}
+
+.nav ul li{
+	width: 20%;
+	float: left;
+	list-style-type: none;
+}
+
+.nav ul img{
+	width: 100%;
+	display: block;
+}
+
+.goods{
+	width: 100%;
+	overflow: hidden;
+	margin-top: -1px;
+}
+
+.title{
+	width: 100%;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+.title span{
+	font-size: 4rem;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+.goods ul{
+	width: 100%;
+}
+
+.goods li{
+	width: 47%;
+	list-style-type: none;
+	float: left;
+	margin-left: 2%;
+	text-align: center;
+	background-color: #fff;
+	padding: 0 0 1.2rem 0;
+	margin-bottom: 2.5rem;
+}
+
+.title-ex{
+	width: 96%;
+	margin-left: 2%;
+	float: left;
+	background-color: #fff;
+	margin-bottom: 2.5rem;
+}
+
+.title-l{
+	width: 50%;
+	padding: 2rem 2rem;
+	float: left;
+	box-sizing: border-box;
+}
+
+.title-r{
+	width: 50%;
+	padding: 2rem 1rem;
+	float: right;
+	box-sizing: border-box;
+}
+
+.title-ex-a{
+	float: right;
+	background-color: rgb(234,97,89);
+	font-size: 2.3rem;
+	font-weight: bolder;
+	color: #fff;
+	padding: 1rem 3.3rem;
+}
+
+.title-ex-t{
+	display: block;
+	font-size: 2.45rem;
+    font-weight: bolder;
+    float: left;
+}
+
+.title-ex-d{
+	display: block;
+	float: left;
+	font-size: 1.8rem;
+	color: rgb(146,146,146);
+	line-height: 3rem;
+}
+
+.title-ex-p
+{
+	width: 100%;
+	float: right;
+	color: rgb(206,123,127);
+	font-size: 2rem;
+	text-align: right;
+}
+
+.title-ex-p span{
+	font-size: 1.3rem;
+	color: #999;
+	text-decoration: line-through;
+}
+
+.goods img{
+	width: 100%;
+}
+
+.goods p{
+	font-size: 2.45rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.describe{
+	font-size: 1.8rem;
+	color: rgb(146,146,146);
+	line-height: 3rem;
+}
+
+.price{
+	display: block;
+	color: rgb(206,123,127);
+	font-size: 2.5rem;
+}
+
+.price span{
+	font-size: 1.8rem;
+	color: #999;
+	text-decoration: line-through;
+}
+
+.goods a{
+	background-color: rgb(234,97,89);
+	font-size: 2.3rem;
+	font-weight: bolder;
+	color: #fff;
+	padding: 1rem 3.3rem;
+	line-height: 8rem;
+}
