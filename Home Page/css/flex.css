@@ -1,0 +1,403 @@
+body { 
+	margin: 0; 
+	color: #333333; 
+	background-color: white; 
+	height: 100%; 
+	overflow-x: hidden;  
+	font-family: sans-serif;
+}
+.top{
+	height: 4.0rem;
+	width: 100%;
+	background-color: #f2f0f0;
+	overflow: hidden;
+	position: fixed;
+    font-size: 13px;
+    left: 0;
+    top: 0;
+}
+.top-container{
+	width: 100%;
+	height: 50%;
+	/*border: 1px solid black;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.logo{
+	/*margin-left: 1.0rem;*/
+	width: 1.8rem;
+	height: 1.4rem;
+	/*border: 1px solid black;*/
+}
+.search{
+	background: #FFFFFF;
+	/*margin-left: 1.8rem;*/
+	width: 14.0rem;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	border: 1px solid gray;
+}
+.search-img{
+	width: 1.8rem;
+	height: 1.8rem;
+	float: left;
+}
+.search input{
+	float: left;
+	height: 1.6rem;
+	width: 10.0rem;
+	border: none;
+	font-size: 14px;
+	outline: none;
+}
+.tubiao{
+	/*margin-left: 1.8rem;*/
+	width: 1.5rem;
+	height: 1.5rem;
+	/*border: 1px solid black;*/
+}
+.top-chose{
+	width: 100%;
+	height: 49%;
+	/*border: 1px solid black;*/
+	display: flex;
+	align-items: center;
+	position: absolute;
+	text-align: center;
+}
+.top-chose ul{
+	display: flex;
+	justify-content: space-around;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    height: 1.8rem;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.top-chose ul li{
+	list-style: none;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	display: inline-block;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+.carousel{
+	width: 300%;
+	height: 10.0rem;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 4.0rem;
+	animation-name: carousel-img;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+@keyframes carousel-img{
+	0%{
+		margin-left: 0;
+	}
+	45%{
+		margin-left: -100%;		
+	}
+	100%{
+		margin-left: -200%;
+	}
+}
+.style{
+    width: 100%;
+    font-size: 13px;
+}
+.style ul {
+    margin: 0; 
+	padding: 0;
+	width: 100%;
+	height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.style ul li {
+	margin: 0;
+	width: 4.3rem;
+	height: 4.3rem;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+.space{
+	background: #f2f0f0;
+	width: 100%;
+	height: 0.6rem;
+}
+.div-one{
+	width: 100%;
+	height: 14.0rem;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.div-one-a{
+	width: 49%;
+	height: 14.0rem;
+	float: left;
+}
+.div-one-b,.div-one-c{
+	width: 50%;
+	height: 6.9rem;
+	float: left;
+	margin-left: 0.2rem;
+}
+.div-one-c{
+	margin-top: 0.2rem;
+}
+.advertising{
+	width: 100%;
+	height: 7.5rem;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.div-three{
+	width: 100%;
+	height: 12.0rem;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.div-four{
+	width: 100%;
+	height: 32.0rem;
+	overflow: hidden;
+	position: relative;
+	z-index: -1;
+}
+.div-four-left,.div-four-right,.div-six-left,.div-six-right{
+	width: 49.5%;
+	height: 16.0rem;
+	float: left;
+	/*border: 1px solid black;*/
+}
+.div-four-right,.div-six-right{
+	margin-left: 0.2rem;
+}
+.phone1,.phone2,.phone3,.phone4,
+.phone5,.phone6,.phone7,.phone8,
+.phone9,.phone10,.phone11,.phone12,
+.phone13,.phone14,.phone15,.phone16{
+	width: 100%;
+	height: 12.0rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*border: 1px solid black;*/
+	position: relative;
+	
+}
+.phone1{
+	background-image: url(../img/photo-6.jpg);
+}
+.phone2{
+	background-image: url(../img/photo-7.jpg);
+}
+.phone3{
+	background-image: url(../img/photo-8.jpg);
+}
+.phone4{
+	background-image: url(../img/photo-9.jpg);
+}
+.phone5{
+	background-image: url(../img/photo-12.jpg);
+}
+.phone6{
+	background-image: url(../img/photo-13.jpg);
+}
+.phone7{
+	background-image: url(../img/photo-14.jpg);
+}
+.phone8{
+	background-image: url(../img/photo-15.jpg);
+}
+.phone9{
+	background-image: url(../img/photo-18.jpg);
+}
+.phone10{
+	background-image: url(../img/photo-19.jpg);
+}
+.phone11{
+	background-image: url(../img/photo-20.jpg);
+}
+.phone12{
+	background-image: url(../img/photo-21.jpg);
+}
+.phone13{
+	background-image: url(../img/photo-24.jpg);
+}
+.phone14{
+	background-image: url(../img/photo-25.jpg);
+}
+.phone15{
+	background-image: url(../img/photo-26.jpg);
+}
+.phone16{
+	background-image: url(../img/photo-27.jpg);
+}
+.phone17{
+	background-image: url(../img/photo-30.jpg);
+}
+.phone18{
+	background-image: url(../img/photo-31.jpg);
+}
+.phone19{
+	background-image: url(../img/photo-32.jpg);
+}
+.div-four img,.div-six-left img,.div-six-right img{
+	width: 3.5rem;
+	height: 3.5rem;
+	position: absolute;
+	right: 0;
+	top: 8.5rem;
+	/*opacity: 0.9;*/
+}
+.div-four p,.div-six p{
+	margin: 0;
+	margin-top: 0.2rem;
+	margin-left: 1.0rem;
+}
+.div-four-p1,.div-six-p1{
+	font-size: 13px;
+	color: #333333;
+}
+.div-four-p2,.div-six-p2{
+	font-size: 11px;
+	color: gray;
+}
+.div-four-span1,.div-six-span1{
+	color: red;
+	font-size: 13px;
+	margin-left: 1.0rem;
+}
+.div-four-span2,.div-six-span2{
+	color: gray;
+	margin-left: 0.2rem;
+	text-decoration: line-through;
+	font-size: 12px;
+}
+.div-five{
+	width: 100%;
+	height: 2.8rem;
+	text-align: center;
+	border-top: 1px solid #808080;
+}
+.div-five a{
+	line-height: 2.8rem;
+	font-size: 13px;
+	color: #333333;
+}
+.div-six{
+	width: 100%;
+	height: 44.0rem;
+	position: relative;
+	z-index: -1;
+}
+.div-six-top{
+	height: 12.0rem;
+}
+.div-seven{
+	width: 100%;
+	height: 48.2rem;
+	position: relative;
+	z-index: -1;
+}
+.div-seven-top{
+	height: 12.0rem;
+	margin-bottom: 0.2rem;
+}
+.div-seven-img,.div-seven-font{
+	height: 12.0rem;
+	width: 50%;
+	float: left;
+}
+.phone17,.phone18,.phone19{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	
+}
+.div-seven .div-six-p1{
+	margin-top: 1.5rem;
+	margin-left: 1.0rem;
+	margin-bottom: 0;
+}
+.div-seven .div-six-p2{
+	margin-top: 0.2rem;
+	margin-left: 1.0rem;
+}
+.div-eight{
+	width: 100%;
+	height: 45.2rem;
+}
+.div-eight-1,.div-eight-2,.div-eight-3{
+	width: 100%;
+	height: 15.0rem;
+}
+.div-eight-2{
+	margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+}
+.div-eight-left{
+	height: 15.0rem;
+	width: 49.5%;
+	float: left;
+}
+.div-eight-right{
+	height: 15.0rem;
+	width: 49.5%;
+	float: left;
+	margin-left: 1%;
+}
+.div-bottom{
+	height: 2.5rem;
+	text-align: center;
+	margin-bottom: 4.5rem;
+}
+.div-bottom a{
+	line-height: 2.5rem;
+	font-size: 15px;
+	font-weight: bold;
+}
+.foot{
+	height: 3.5rem;
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+    font-size: 13px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.foot-chose{
+	width: 2.4rem;
+	height: 2.7rem;
+	margin-top: 0.4rem;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+.chose-tubiao{
+	width: 1.4rem;
+	height: 1.4rem;
+	margin-left: 0.5rem;
+	/*border: 1px solid black;*/
+}
+.foot-chose span{
+	font-size: 12px;
+	color: gray;
+}
+
