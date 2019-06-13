@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* 头部区域 */
+header{
+  width: 100%;
+  height: 50px;
+  background: #f2f2f2;
+  display: flex;
+}
+
+header>div{
+  height: 50px;
+  text-align: center;
+  
+}
+.header_l_arrow{
+  flex: 1;
+}
+.header_l_arrow>img{
+  width: 1.04rem;
+  height: 1.04rem;
+  vertical-align: middle;
+}
+
+.header_title{
+  color: #3c3c3c;
+  font-size: 0.625rem;
+  flex: 5;
+  line-height: 50px;
+}
+
+.header_title>span{
+  display: inline-block;
+  margin: 0 auto;
+}
+.header_collect{
+  flex: 1;
+}
+.header_collect>img{
+  width: 0.83rem;
+  height: 0.9rem;
+  vertical-align: middle;
+}
+.header_cart{
+  flex: 1;
+}
+.header_cart>img{
+  width: 1.25em;
+  height: 1.25em;
+  vertical-align: middle;
+}
+/* 导航 时间分区 */
+nav{
+  display: flex;
+  width: 100%;
+  height: 1.3rem;
+  padding: 0.31rem 0 0.42rem;
+}
+nav>div{
+  flex: 1;
+  height: 1.3rem;
+  color: rgba(0,0,0,0.72);
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+}
+.seckill_time{
+  font-size: 0.75rem;
+  height: auto;
+  flex: 2;
+}
+nav>div>span{
+  font-size: 0.42rem;
+  flex: 1;
+}
+.white_box{
+  width: 100%;
+  height: 0.31rem;
+  background: #f2f2f2;
+}
+section>div{
+  width: 100%;
+  display: none;
+  font-size: 0.58rem;
+}
+/* 倒计时 */
+.seckill_box_time{
+  width: 100%;
+  height: 1.7rem;
+  background-color: #fff;
+}
+.time-item { 
+  float:right;
+  height: 1.6rem;
+  width: 7rem;
+  line-height: 1.6rem;
+}
+.seckill_box_title{
+  display: inline-block;
+  height: 1.6rem;
+  width: 7.2rem;
+  line-height: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+.time-item strong {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-weight: 100;
+}
+
+.time-item>span {
+  float: left;
+  color: orange;
+  margin: 0 0.2rem;
+}
+
+.seckill_box{
+  color: rgba(0,0,0,0.87);
+  font-size: 0.58rem;
+}
+
+.current{
+  color: #f56600;
+}
+
+.selected{
+  display: block;
+}
+
+/* 手机列表 */
+.seckill_box_list>li{
+  position: relative;
+  padding: 0.375rem;
+  border-bottom: 1px solid  #f2f2f2;
+}
+.seckill_box_list>li>div{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.seckill_box_list>li>div>span:nth-of-type(1){
+  color: rgba(0,0,0,0.87);
+  font-size: 0.5rem;
+}
+.seckill_box_list>li>div>span:nth-of-type(2){
+  color: #9A9A9A;
+  font-size: 0.42rem;
+}
+.seckill_box_list>li>div>span:nth-of-type(3){
+  color: #F56600;
+  font-size: 0.58rem;
+}
+.seckill_box_list>li>div>del{
+  color: #d1d1d1;
+  font-size: 0.5rem;
+}
