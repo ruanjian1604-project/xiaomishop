@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bjb-all{
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+}
+/*第一部分*/
+.bjb-content1 img{
+    width:100%;
+
+}
+/*第二部分*/
+.bjb-content2 li{
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+}
+
+.bjb-content2{
+    width: 100%;
+    /*display: flex;*/
+    align-items: center;
+    background-color: rgb(17,135,214);
+    text-align: center;
+
+
+}
+.bjb-content2 img{
+    /*width:2.6rem;*/
+    height: 3rem;
+}
+
+/*人气甄选*/
+.bjb-content3{
+    background-color: blue;
+}
