@@ -739,12 +739,14 @@
 </body>
 <script src="js/index.js"></script>
 <script>
-  (function () {
-    var html = document.documentElement;
+  reset();
+  window.addEventListener("resize", reset);
+  function reset() {
+    var html = document.getElementsByTagName('html')[0];
     var hWidth = html.getBoundingClientRect().width;
     html.style.fontSize = hWidth / 15 + "px";
     console.log(hWidth);
-  })()
+  }
 </script>
 
 </html>
