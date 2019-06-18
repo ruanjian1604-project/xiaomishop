@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="#">
+		<title>每日甄选</title>
+		<style type="text/css">
+			html{
+				font-size: 6.25rem;
+			}
+			div{
+				box-sizing: border-box;
+			}
+			body,input,a{
+				padding: 0;
+				margin: 0;
+				text-decoration: none;
+				outline: none;
+				font-size: 0.12rem;
+			}
+			body{
+				background: #FFFFFF;
+			}
+		</style>
+		<style type="text/css">
+			.header>.top{
+				position: fixed;
+				left: 0;
+				top: 0;
+				z-index: 10;
+				height: 0.44rem;
+				background-color: rgba(255,255,255,0.1);
+				font-size: 0.14rem;
+				color: #FFFFFF;
+				width: 100%;
+				text-align: center;
+				padding-left: 0.17rem;
+				padding-right: 0.17rem;
+				line-height: 0.44rem;
+			}
+			.top img{
+				width: 0.4rem;
+				height: 0.4rem;
+			}
+			.top input{
+				width: 2.54rem;
+				height: 0.28rem;
+			}
+		</style>
+		<style type="text/css">
+			.play{
+				width: 100%;
+				height: 2rem;
+			}
+		</style>
+		<style type="text/css">
+			.back{
+				position:fixed;
+				z-index: 10;
+				bottom: 5%;
+				display: block;
+				right: 5%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+					<a href="#"><img src="img/select-t1.jpg" align="left"></a>
+					<input placeholder="搜索商品名称" type="text" />
+					<a href="#"><img src="img/select-t2.jpg" align="right"></a>
+			</div>
+		</div>
+		<div class="play">
+			<marquee onmouseout="this.start()" onmouseover="this.stop()" behavior="alternate">
+				<a href="#" name="top"><img src="img/select-1.jpg" width="100%" border="0" /></a>
+				<a href="#"><img src="img/select-2.jpg" width="100%" border="0" /></a>
+			</marquee>
+		</div>
+		<!--<br /><br />-->
+		<div>
+			<table border="0">
+				<tr>
+					<td colspan="2">
+						<img src="img/select-3.jpg" width="100%">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<img src="img/select-4.jpg" width="100%">
+					</td>
+				</tr>
+				<tr align="center">
+					<td width="49%">
+						<font size="4">小米手环3 NFC版</font><br />
+						<font size="2" color="gray">能刷公交卡的触摸大屏手环</font>
+					</td>
+					<td width="49%">
+						<font size="3" color="orangered">￥179</font><br />
+						<font size="2" color="gray"><s>￥199</s></font>
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-5.jpg" width="100%"><br />
+						<font size="4">米家智能摄像机云台版</font><br />
+						<font size="2" color="gray">高清画质，守护家的每一面</font><br />
+						<font size="3" color="orangered">￥179</font>
+						<font size="2" color="gray"><s>￥199</s></font>
+					</td>
+					<td width="49%">
+						<img src="img/select-6.jpg" width="100%">
+						<font size="4">小米无线充电宝 10000</font><br />
+						<font size="2" color="gray">迄今为止小米最强充电宝</font><br />
+						<font size="3" color="orangered">￥149</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-7.jpg" width="100%">
+						<font size="4">小米小爱触屏音箱</font><br />
+						<font size="2" color="gray">好听，更好看</font><br />
+						<font size="3" color="orangered">￥299</font>
+					</td>
+					<td width="49%">
+						<img src="img/select-8.jpg" width="100%">
+						<font size="4">小米蓝牙项圈耳机</font><br />
+						<font size="2" color="gray">挂在脖子上的好耳机</font><br />
+						<font size="3" color="orangered">￥279</font>
+						<font size="2" color="gray"><s>￥299</s></font>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<img src="img/select-9.jpg" width="100%">
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-10.jpg" width="100%"><br />
+						<font size="4">小米小背包</font><br />
+						<font size="2" color="gray">小身材大容量，更精彩！</font><br />
+						<font size="3" color="orangered">￥29</font>
+					</td>
+					<td width="49%">
+						<img src="img/select-11.jpg" width="100%">
+						<font size="4">FREETIE云弹减震运动</font><br />
+						<font size="2" color="gray">云弹缓震，踏风而行</font><br />
+						<font size="3" color="orangered">￥249</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-12.jpg" width="100%">
+						<font size="4">小米蓝牙耳机mini</font><br />
+						<font size="2" color="gray">美妙动听之声</font><br />
+						<font size="3" color="orangered">￥79</font>
+					</td>
+					<td width="49%">
+						<img src="img/select-13.jpg" width="100%">
+						<font size="4">小米手环3</font><br />
+						<font size="2" color="gray">全新OLED可触摸大屏</font><br />
+						<font size="3" color="orangered">￥139</font>
+						<font size="2" color="gray"><s>￥169</s></font>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<img src="img/select-14.jpg" width="100%">
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src=img/select-15.jpg" width="100%"><br />
+						<font size="4">小米路由器4A千兆版</font><br />
+						<font size="2" color="gray">双核全千兆AC1200路由器</font><br />
+						<font size="3" color="orangered">￥149</font>
+						<font size="2" color="gray"><s>￥169</s></font>
+					</td>
+					<td width="49%">
+						<img src="img/select-16.jpg" width="100%">
+						<font size="4">移动电源2C（20000）</font><br />
+						<font size="2" color="gray">大容量，一个就够用</font><br />
+						<font size="3" color="orangered">￥129</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-17.jpg" width="100%">
+						<font size="4">18W USB充电器快充版</font><br />
+						<font size="2" color="gray">安卓、苹果设备均可使用</font><br />
+						<font size="3" color="orangered">￥29.9</font>
+					</td>
+					<td width="49%">
+						<img src="img/select-18.jpg" width="100%">
+						<font size="4">小米蓝牙项圈耳机 青春</font><br />
+						<font size="2" color="gray">轻盈随心，乐享不停</font><br />
+						<font size="3" color="orangered">￥159</font>
+						<font size="2" color="gray"><s>￥169</s></font>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<img src="img/select-19.jpg" width="100%">
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-20.jpg" width="100%"><br />
+						<font size="4">米家石英表</font><br />
+						<font size="2" color="gray">腕上的科技与美学</font><br />
+						<font size="3" color="orangered">￥299</font>
+						<font size="2" color="gray"><s>￥349</s></font>
+					</td>
+					<td width="49%">
+						<img src="img/select-21.jpg" width="100%">
+						<font size="4">米家初心足金手链</font><br />
+						<font size="2" color="gray">不忘初心，方得始终</font><br />
+						<font size="3" color="orangered">￥399</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-22.jpg" width="100%">
+						<font size="4">米家飞天猪足金吊坠</font><br />
+						<font size="2" color="gray">一飞冲天好寓意</font><br />
+						<font size="3" color="orangered">￥789</font>
+						<font size="2" color="gray"><s>￥799</s></font>
+					</td>
+					<td width="49%">
+						<img src="img/select-23.jpg" width="100%">
+						<font size="4">米兔招财猫足金吊坠</font><br />
+						<font size="2" color="gray">把好运带在身边</font><br />
+						<font size="3" color="orangered">￥818</font>
+						<font size="2" color="gray"><s>￥888</s></font>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<img src="img/select-24.jpg" width="100%">
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-25.jpg" width="100%"><br />
+						<font size="4">贝医生声波电动牙刷</font><br />
+						<font size="2" color="gray">声波净齿，软毛护龈</font><br />
+						<font size="3" color="orangered">￥99</font>
+					</td>
+					<td width="49%">
+						<img src="img/select-26.jpg" width="100%">
+						<font size="4">米家水离子吹风机</font><br />
+						<font size="2" color="gray">快速吹干，深度补水</font><br />
+						<font size="3" color="orangered">￥194</font>
+						<font size="2" color="gray"><s>￥199</s></font>
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-27.jpg" width="100%">
+						<font size="4">米家自动泡沫洁面机</font><br />
+						<font size="2" color="gray">泡泡洗脸，深度净爽</font><br />
+						<font size="3" color="orangered">￥99</font>
+					</td>
+					<td width="49%">
+						<img src="img/select-28.jpg" width="100%">
+						<font size="4">米家床头灯</font><br />
+						<font size="2" color="gray">如梦如幻，多彩光世界</font><br />
+						<font size="3" color="orangered">￥249</font>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<img src="img/select-29.jpg" width="100%">
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-30.jpg" width="100%"><br />
+						<font size="4">米家感应夜灯</font><br />
+						<font size="2" color="gray">举步之间，光明立现</font><br />
+						<font size="3" color="orangered">￥49</font>
+					</td>
+					<td width="49%">
+						<img src="img/select-31.jpg" width="100%">
+						<font size="4">米家驱蚊器基础版3个装</font><br />
+						<font size="2" color="gray">3个装 长效驱蚊</font><br />
+						<font size="3" color="orangered">￥129</font>
+					</td>
+				</tr>
+				<tr>
+					<td width="49%">
+						<img src="img/select-32.jpg" width="100%">
+						<font size="4">8H标准乳胶枕 Z1</font><br />
+						<font size="2" color="gray">天然好枕头 一晚好睡眠</font><br />
+						<font size="3" color="orangered">￥155</font>
+						<font size="2" color="gray"><s>￥159</s></font>
+					</td>
+					<td width="49%">
+						<img src="img/select-33.jpg" width="100%">
+						<font size="4">8H乳胶床垫-青春版</font><br />
+						<font size="2" color="gray">真心品质帮助睡眠</font><br />
+						<font size="3" color="orangered">￥569起</font>
+						<font size="2" color="gray"><s>￥599</s></font>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="back">
+			<a href="#top">
+				<img src="img/select-t3.png" width="40px" height="40px" />
+			</a>
+		</div>
+		<script>
+
+autoSize();
+
+window.onresize = function(){
+
+autoSize();
+
+}
+
+function autoSize(){
+
+// 获取当前浏览器的视窗宽度，放在w中
+
+var w = document.documentElement.clientWidth;
+
+// 计算实际html font-size大小
+
+var size = w * 100 / 375 ;
+
+// 获取当前页面中的html标签
+
+var html = document.querySelector('html');
+
+// 设置字体大小样式
+
+html.style.fontSize = size + 'px';
+
+}
+
+</script>
+
+	</body>
+</html>

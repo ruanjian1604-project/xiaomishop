@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 头部区域 */
+header{
+  width: 100%;
+  height: 1.8rem;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header>img:nth-of-type(1){
+  width: 1.04rem;
+  height: 1.04rem;
+}
+
+header>span{
+  color: #3c3c3c;
+  font-size: 0.625rem;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+header>img:nth-of-type(2){
+  width: 0.83rem;
+  height: 0.9rem;
+  margin-right: 0.2rem;
+}
+
+header>img:nth-of-type(3){
+  width: 1.25em;
+  height: 1.25em;
+  margin-right: 0.2rem;
+}
+/* 导航 时间分区 */
+nav{
+  display: flex;
+  width: 100%;
+  height: 1.3rem;
+  padding: 0.31rem 0 0.42rem;
+}
+nav>div{
+  flex: 1;
+  height: 1.3rem;
+  color: rgba(0,0,0,0.72);
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+nav>div>span{
+  font-size: 0.42rem;
+  flex: 1;
+}
+.seckill_time{
+  font-size: 0.75rem;
+  height: auto;
+  flex: 2;
+}
+.white_box{
+  width: 100%;
+  height: 0.31rem;
+  background: #f2f2f2;
+}
+
+/* 被切换的模块 */
+section>div{
+  width: 100%;
+  display: none;
+  font-size: 0.58rem;
+}
+/* 倒计时 */
+.seckill_box_time{
+  width: 100%;
+  height: 1.7rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.seckill_box_title{
+  margin-left: 0.5rem;
+}
+.time-item { 
+  margin-right: 0.4rem;
+}
+.time-item strong {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 0rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-weight: 100;
+}
+
+.time-item>span {
+  float: left;
+  color: orange;
+  margin: 0 0.2rem;
+}
+.seckill_box{
+  color: rgba(0,0,0,0.87);
+  font-size: 0.58rem;
+}
+
+.current{
+  color: #f56600;
+}
+
+.selected{
+  display: block;
+}
+/* 倒计时下面的图片 */
+.banner{
+  width: 100%;
+}
+/* 手机列表 */
+.seckill_box ul{
+  display: flex;
+  flex-direction: column;
+}
+.seckill_box_lis{
+  padding: 0.375rem;
+  border-bottom: 1px solid  #f2f2f2;
+  display: flex;
+}
+.seckill_box_lis>img{
+  width: 3.8rem;
+  height: 3.8rem;
+}
+.seckill_box_lis_r{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.3rem 0 0.3rem 0.5rem ;
+}
+
+.seckill_box_lis_r>.des{
+
+}
+
+.seckill_box_lis_r>.des>p{
+  color: rgba(0,0,0,0.87);
+  font-size: 0.5rem;
+}
+.seckill_box_lis_r>.des>span{
+  color: #9A9A9A;
+  font-size: 0.42rem;
+}
+.seckill_box_lis_r>.price{
+  display: flex;
+  justify-content: space-between;
+}
+.seckill_box_lis_r>.price span{
+  color: #F56600;
+  font-size: 0.58rem;
+}
+.seckill_box_lis_r>.price del{
+  color: #d1d1d1;
+  font-size: 0.5rem;
+}
+.seckill_box_lis_r>.price .progress{
+  clear: both;
+  color: #fff;
+  width: 5.4rem;
+  height: 0.4rem;
+  background-color: rgba(245,102,0,0.3);
+  border-radius: 0.2rem;
+  border: 1px solid #F56600;
+  text-align: center;
+  font-size: 0.3rem;
+}
+.seckill_box_lis_r>.price .progress>div{
+  float: left;
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  background-color:#F56600;
+}
+.seckill_box_lis_r>.price p{
+  color: #9A9A9A;
+  font-size: 0.42rem;
+}
+
+.seckill_box_lis_r>.price .login{
+  width: 3.71rem;
+  height: 1.25rem;
+  font-size: 0.5rem;
+  line-height: 1.25rem;
+  text-align: center;
+  border-radius: 0.1rem;
+  color: #fff;
+}
+.orange{
+  background-color: #ff6800;  
+}
+
+.green{
+  background-color: #8AC349;
+}
+

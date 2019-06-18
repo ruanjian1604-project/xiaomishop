@@ -1,0 +1,176 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+
+
+
+
+.div-001 {
+    width: 100%;
+    height: 18.0rem;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.div-002 {
+    width: 100%;
+    height: 12.0rem;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.div-003 {
+    width: 100%;
+    height: 5.0rem;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.div-004 {
+    width: 100%;
+    height: 7.0rem;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+}
+
+.ticket{
+    width:95%;
+    height: 7.0rem;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.div-005 {
+    width: 100%;
+    height: 5.0rem;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+
+.div-006{
+    width: 100%;
+    height: 16.0rem;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    background-color: Mediumslateblue;
+    justify-content:space-around;
+}
+
+.div-007{
+    width: 100%;
+    height: 16.0rem;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    background-color: darkorchid;
+    justify-content:space-around;
+}
+
+.div-008{
+    width: 100%;
+    height: 16.0rem;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    background-color:slateblue;
+    justify-content:space-around;
+}
+
+.div-009 {
+    width: 100%;
+    height: 7.0rem;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+
+
+.div-four img,.div-six-left img,.div-six-right img{
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    right: 0;
+    top: 8.5rem;
+    /*opacity: 0.9;*/
+}
+.div-four p,.div-six p{
+    margin: 0;
+    margin-top: 1rem;
+}
+.div-four-p1,.div-six-p1{
+    margin-top: 1rem;
+    font-size: 13px;
+    color: #333333;
+    text-align: center;
+}
+.div-four-p2,.div-six-p2{
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+}
+.div-four-p3,.div-six-p31{
+    color: red;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.phone1{
+    width:100%;
+    height:60%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.phone2{
+    width:100%;
+    height:40%;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    float:left;
+    background-color: white;
+}
+
+
+
+.div-left,.div-mid,.div-right{
+    width: 95%;
+    height: 15.0rem;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+
+.space_1 {
+     width:100%;
+     height:0.7rem;
+     background-color:pink;
+ }
+
+
+.space_2 {
+    width:100%;
+    height:0.7rem;
+    background-color: firebrick;
+}
