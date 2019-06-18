@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-phone-tol{
+    width: 100%;
+    background: rgb(152, 27, 25);
+    display: flex;
+    flex-direction: column;
+}
+.top-tre-img{
+    width: 100%;
+}
+.top-img{
+    width: 100%;
+}
+.top-img img{
+    display: block;
+    width: 100%;
+}
+.main{
+    width: 100%;
+}
+.main-top{
+    width: 100%;
+}
+.main-top-cont{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 0 auto;
+}
+.mtc-img{
+    width: 100%;
+}
+.main-img-first{
+    width: 100%;
+    display: block;
+}
+.mtc-txt{
+    width: 100%;
+    background: #fff;
+    display: flex;
+}
+.mtc-txt-l{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.mtc-txt-l>strong{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.8rem;
+    text-indent: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mtc-txt-l>p{
+    height: 3rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    text-indent: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mtc-txt-r{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.mtc-txt-r>span{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 1.6rem;
+    float: right;
+}
+.mtc-txt-r>a{
+    display: block;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.3rem;
+    background: #ea625b;
+    width: 80%;
+    text-align: center;
+}
+.tab{
+    width: 100%;
+    height: 100rem;
+    padding-top: 1rem;
+}
+.tab-main{
+    width: 97%;
+    height: 100rem;
+    margin: 0 auto;
+}
+.tab-item{
+    width: 100%;
+    height: 24rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tab-item-chirld{
+    width: 49%;
+    height: 100%;
+    background: #fff;
+}
+.tab-item-chirld>img{
+    width: 100%;
+    float: left;
+}
+.tab-chirld-txt{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.tab-chirld-txt>strong{
+    height: 3rem;
+    line-height: 3rem;
+}
+.tab-chirld-txt>p{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.tab-chirld-txt>span{
+    height: 2.3rem;
+    line-height: 2.3rem;
+    color: #ea625b;
+}
+.tab-chirld-txt>span>s{
+    color: rgba(0, 0, 0, .450);
+    font-size: 1rem;
+}
+.chirld-shop>a{
+    display: block;
+    width: 60%;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    font-size: 1.3rem;
+    margin: 0 auto;
+    background: #ea625b;
+    color: #fff;
+    border-radius: 5px;
+}
+.tab-girl{
+    background: rgb(241, 72, 73);
+}
