@@ -19,6 +19,9 @@
     align-items: center;
     text-align: center;
 }
+.bjb-content1{
+    font-size: 0;
+}
 
 .bjb-content2{
     width: 100%;
@@ -26,6 +29,7 @@
     align-items: center;
     background-color: rgb(17,135,214);
     text-align: center;
+    /*font-size: 0;*/
 
 
 }
@@ -37,4 +41,212 @@
 /*人气甄选*/
 .bjb-content3{
     background-color: blue;
+    /*display: flex;*/
+    height: 257rem;
+
 }
+.bjb-content3 p{
+    line-height:2rem;
+    display: inline-block;
+    height:0.7rem;
+
+}
+.bjb-content3-1 button{
+    width:5rem;
+    height:1.7rem;
+    color:white;
+    background-color: red;
+    border:none;
+    border-radius: 0.3rem;
+    float: right;
+    margin-right: 0.5rem;
+    /*display: inline-flex;*/
+    /*flex-direction: row-reverse;*/
+
+}
+.price{
+    color: red;
+   float: right;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+
+
+}
+.jieshao{
+    font-size: 0.6rem;
+    color: gray;
+}
+.bjb-content3 h3{
+    width: auto;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height:3rem;
+   color: white;
+}
+.bjb-content3-1{
+    width: auto;
+    height: 15rem;
+    margin: 0.3rem;
+    background-color: white;
+    /*display: flex;*/
+}
+.bjb-content3-1 img{
+    width:100%;
+    height:74%;
+}
+/*列表电脑一*/
+.bjb-content3-list-1{
+    background-color: blue;
+    height: 24.5rem;
+    font-size: 0;
+}
+.bjb-content3-list-1 li{
+   margin-left:1.8%;
+    margin-bottom: 0.3rem;
+    width:47.1%;
+    height:12rem;
+    background-color: white;
+    /*display:flex;*/
+   float:left;
+    list-style-type: none;
+    margin-right: 0;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+}
+.bjb-content3-list-1 img{
+    width: 100%;
+    height: 60%;
+}
+
+.bjb-content3-list-1 p{
+    height:1rem;
+    line-height:1rem;
+    width:100%;
+    text-align: center;
+
+}
+.bjb-content3-list-1 button{
+    width: 7rem;
+    height:1.5rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius:0.2rem;
+    font-size:0.7rem;
+
+}
+.bjb-content3-list-1 del{
+    color: gray;
+}
+.bjb-content3-list-1 a{
+    color: grey;
+    font-size:0.5rem ;
+    width: 100%;
+    text-align: center;
+ }
+ .xhao{
+     font-size: 0.7rem;
+ }
+ .price1{
+     color: red;
+     /*font-size: 0.7rem;*/
+ }
+.jieshao-1{
+    color: gray;
+    font-size: 0.4rem;
+}
+/*第二个列表*/
+.bjb-content3-2{
+    width:auto;
+    height: 10rem;
+    margin: 0.3rem;
+    background-color: white;
+}
+
+.bjb-content3-list-2{
+    background-color: blue;
+    height: 11.5rem;
+    font-size: 0;
+}
+.bjb-content3-list-2 li{
+    margin-left:1.8%;
+    margin-bottom: 0.3rem;
+    width:47.1%;
+    height:12rem;
+    background-color: white;
+    /*display:flex;*/
+    float:left;
+    list-style-type: none;
+    margin-right: 0;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+}
+.bjb-content3-list-2 img{
+    width: 100%;
+    height: 60%;
+}
+
+.bjb-content3-list-2 p{
+    height:1rem;
+    line-height:1rem;
+    width:100%;
+    text-align: center;
+
+}
+.bjb-content3-list-2 button{
+    width: 7rem;
+    height:1.5rem;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius:0.2rem;
+    font-size:0.7rem;
+
+}
+.bjb-content3-list-2 del{
+    color: gray;
+}
+.bjb-content3-list-2 a{
+    color: grey;
+    font-size:0.5rem ;
+    width: 100%;
+    text-align: center;
+}
+.xhao{
+    font-size: 0.7rem;
+}
+.price1{
+    color: red;
+    font-size: 0.7rem;
+}
+.jieshao-1{
+    color: gray;
+    font-size: 0.4rem;
+}
+.price del{
+    color: gray;
+}
+/*高价回收*/
+.gjhs img{
+    width: 100%;
+    height: 8rem;
+}
+#yxb{
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
