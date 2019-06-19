@@ -70,7 +70,7 @@ html{
     flex-shrink: 1;
 }
 .san1 {
-    background-image: url("image/san.jpg");
+    background-image: url("img/san.jpg");
     background-size: 281px;
     background-position: -31px -93px;
 }
@@ -83,7 +83,7 @@ html{
     /*margin: 32px 10px 0 31px;*/
 }
 .san2{
-    background-image: url("image/san.jpg");
+    background-image: url("img/san.jpg");
     background-size: 281px;
     background-position: -114px -185px;
 }
@@ -94,7 +94,7 @@ html{
     /*margin: 32px 10px 0 31px;*/
 }
 .san3{
-    background-image: url("image/san.jpg");
+    background-image: url("img/san.jpg");
     background-size: 281px;
     background-position: 96px -93px;
 }
@@ -121,7 +121,7 @@ html{
 .hs{
     width: 56px;
     height: 47px;
-    background-image: url("image/hfa.jpg");
+    background-image: url("img/hfa.jpg");
     background-size: 73px;
     background-position:62px -9px;
 }
@@ -143,14 +143,14 @@ html{
 .fk{
     width: 72px;
     height: 47px;
-    background-image: url("image/hfa.jpg");
+    background-image: url("img/hfa.jpg");
     background-size: 73px;
     background-position:227px -59px;
 }
 .aq{
     width: 73px;
     height: 47px;
-    background-image: url("image/hfa.jpg");
+    background-image: url("img/hfa.jpg");
     background-size: 73px;
     background-position:84px 56px;
 }
@@ -286,11 +286,11 @@ html{
     border-radius: 45px;
     border: 0.1rem solid red;
     background-color: red;
-    position:absolute;
+    position:relative;
     color: white;
     font-size:0.2rem;
-    top:4rem;
-    left:14.4rem;
+    top:-8rem;
+    left:2.5rem;
     z-index: 3;
 }
 .yuan3 button{
@@ -299,11 +299,11 @@ html{
     border-radius: 45px;
     border: 0.1rem solid red;
     background-color: red;
-    position:absolute;
+    position:relative;
     color: white;
     font-size:0.2rem;
-    top:18.7rem;
-    left:6rem;
+    top:-8rem;
+    left:2.5rem;
     z-index: 3;
 }
 .yuan4 button{
@@ -312,11 +312,11 @@ html{
     border-radius: 45px;
     border: 0.1rem solid red;
     background-color: red;
-    position:absolute;
+    position:relative;
     color: white;
     font-size:0.2rem;
-    top:18.7rem;
-    left:14.4rem;
+    top:-8rem;
+    left:2.5rem;
     z-index: 3;
 }
 

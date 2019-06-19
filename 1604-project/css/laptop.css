@@ -235,3 +235,35 @@
 #yxb{
     margin-top: 1rem;
 }
+
+.top_button button {
+    width: 2.0rem;
+    height: 2.0rem;
+    position: fixed;
+    top:83.8%;
+    left:87%;
+    background-color:white;
+    border:0.1px solid rgb(241,241,241);
+    border-radius: 2.0rem;
+    cursor: pointer;
+}
+.top_button img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.download_button button{
+    width: 2.0rem;
+    height: 2.0rem;
+    position: fixed;
+    top:77.8%;
+    left:87%;
+    color: white;
+    background-color:rgb(243,103,5);
+    border: 0.1rem solid rgb(243,103,5);
+    border-radius: 2.0rem;
+    font-size: 10px;
+}
+.download_button img{
+    width: 1rem;
+    height: 1rem;
+}

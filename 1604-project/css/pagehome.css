@@ -75,6 +75,7 @@ body {
     height: 1.8rem;
     width: 100%;
     position: absolute;
+    overflow: scroll;
     top: 50%;
     transform: translateY(-50%); 
 }
@@ -98,6 +99,11 @@ a{
 	animation-name: carousel-img;
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
+}
+.carousel img{
+	width:calc(100% / 3);
+	height: 100%;
+	float: left;
 }
 @keyframes carousel-img{
 	0%{
@@ -369,6 +375,25 @@ a{
 	line-height: 2.5rem;
 	font-size: 15px;
 	font-weight: bold;
+}
+.download-top{
+	width: 2.5rem;
+	height: 5.5rem;
+	position: fixed;
+	top: 75%;
+	right: 1.0rem;
+	/*border: 1px solid black;*/
+}
+.download,.return-top{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.return-top{
+	margin-top: 0.45rem;
+}
+.download img,.return-top img{
+	width: 100%;
+	height: 100%;
 }
 .foot{
 	height: 3.5rem;
