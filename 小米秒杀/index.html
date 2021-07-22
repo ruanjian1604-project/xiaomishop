@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+  <title>小米秒杀</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    <div class="header_l_arrow">
+      <img src="images/l_arrow.png" alt="">
+    </div>
+    <div class="header_title">
+      <span>小米秒杀</span>
+    </div>
+    <div class="header_collect">
+      <img src="images/collect.png" alt="">
+    </div>
+    <div class="header_cart">
+      <img src="images/cart.png" alt="">
+    </div>
+  </header>
+  <nav>
+    <div class="seckill current">
+      <span class="seckill_time">10:00</span>
+      <span>抢购中</span>
+    </div>
+    <div class="seckill">
+      <span class="seckill_time">14:00</span>
+      <span>即将开始</span>
+    </div>
+    <div class="seckill">
+      <span class="seckill_time">20:00</span>
+      <span>即将开始</span>
+    </div>
+  </nav>
+  <div class="white_box"></div>
+  <section>
+    <div class="seckill_box selected">
+      <div class="seckill_box_time">
+        <span class="seckill_box_title">抢购中 先下单先得哦</span>
+        <div class="time-item">
+          距结束：
+          <strong>
+            <span id="hour">00</span>
+          </strong>：
+          <strong>
+            <span id="minute">00</span>
+          </strong>：
+          <strong>
+            <span id="second">00</span>
+          </strong>
+        </div>
+        <img src="images/banner.jpg" height="115px" alt="">
+        <ul class="seckill_box_list">
+          <li>
+            <img src="images/phone1.jpg" width="105.79" alt="">
+            <div>
+              <span>小米8 青春版 6GB+64GB 深空灰</span>
+              <br>
+              <span>潮流轻旗舰，超级夜景模式</span>
+              <br>
+              <span>&yen;1099</span>
+              <del>1699</del>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="seckill_box">
+      <div class="seckill_box_time">
+        <span class="seckill_box_title">抢购中 先下单先得哦</span>
+        <div class="time-item">
+          距结束：
+          <strong>
+            <span id="hour">00</span>
+          </strong>：
+          <strong>
+            <span id="minute">00</span>
+          </strong>：
+          <strong>
+            <span id="second">00</span>
+          </strong>
+        </div>
+        <img src="images/banner.jpg" height="115px" alt="">
+        <ul class="seckill_box_list">
+          <li>
+            <img src="images/phone1.jpg" width="105.79" alt="">
+            <div>
+              <span>小米8 青春版 6GB+64GB 深空灰</span>
+              <br>
+              <span>潮流轻旗舰，超级夜景模式</span>
+              <br>
+              <span>&yen;1099</span>
+              <del>1699</del>
+            </div>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="seckill_box">
+      <div class="seckill_box_time">
+        <span class="seckill_box_title">抢购中 先下单先得哦</span>
+        <div class="time-item">
+          距结束：
+          <strong>
+            <span id="hour">00</span>
+          </strong>：
+          <strong>
+            <span id="minute">00</span>
+          </strong>：
+          <strong>
+            <span id="second">00</span>
+          </strong>
+        </div>
+        <img src="images/banner.jpg" height="115px" alt="">
+        <ul class="seckill_box_list">
+            <li>
+                <img src="images/phone1.jpg" width="105.79" alt="">
+                <div>
+                  <span>小米8 青春版 6GB+64GB 深空灰</span>
+                  <br>
+                  <span>潮流轻旗舰，超级夜景模式</span>
+                  <br>
+                  <span>&yen;1099</span>
+                  <del>1699</del>
+                </div>
+    
+              </li>          <li>
+                  <img src="images/phone1.jpg" width="105.79" alt="">
+                  <div>
+                    <span>小米8 青春版 6GB+64GB 深空灰</span>
+                    <br>
+                    <span>潮流轻旗舰，超级夜景模式</span>
+                    <br>
+                    <span>&yen;1099</span>
+                    <del>1699</del>
+                  </div>
+      
+                </li>          <li>
+                    <img src="images/phone1.jpg" width="105.79" alt="">
+                    <div>
+                      <span>小米8 青春版 6GB+64GB 深空灰</span>
+                      <br>
+                      <span>潮流轻旗舰，超级夜景模式</span>
+                      <br>
+                      <span>&yen;1099</span>
+                      <del>1699</del>
+                    </div>
+        
+                  </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="js/index.js"></script>
+<script>
+  (function () {
+    var html = document.documentElement;
+    var hWidth = html.getBoundingClientRect().width;
+    html.style.fontSize = hWidth / 15 + "px";
+    console.log(hWidth);
+  })()
+</script>
+
+</html>
